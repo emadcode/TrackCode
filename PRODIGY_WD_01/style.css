@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scrollbar-width: 40px;
+    scrollbar-color: blue;
+    scroll-margin: 0;
+    scroll-behavior: auto;
+    scroll-snap-align: 10px;
+    scroll-margin-inline: none;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, #0044cc, #0088ff);
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul li {
+    margin: 0 15px;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+    transition: background 0.3s, color 0.3s;
+}
+
+#navbar ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #000;
+}
+
+#content {
+    padding-top: 60px; /* Space for fixed navbar */
+}
+
+section {
+    padding: 60px 20px;
+    min-height: 100vh;
+}
+
+/* Different background colors for each section */
+#home { background: rgb(22, 113, 155);
+    background: linear-gradient(90deg, rgba(1,83,121,1) 37%, rgba(3,17,31,0.9317926999901524) 68%)}; 
+#services { background-color: #219c3b; }
+#about { background-color: #1383a5; }
+#contact { background-color: #d4d4d4; }
