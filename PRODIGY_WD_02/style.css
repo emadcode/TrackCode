@@ -1,0 +1,32 @@
+body{
+    
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: rgb(100,78,204);
+            background: radial-gradient(circle, rgba(100,78,204,1) 2%, rgba(95,90,227,1) 19%, rgb(56, 21, 28) 100%);         }
+        .stopwatch {
+            background: rgba(255, 255, 255, 0.26);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            
+        }
+        .time {
+            font-size: 49px;
+            margin-bottom: 30px;
+            margin-left: 35px;
+            color: black;
+        }
+        .buttons button {
+            font-size: 16px;
+        background-color: rgba(189, 184, 177, 0.37);
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            box-shadow: inset;
+            cursor: pointer;
+        
+}
